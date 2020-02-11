@@ -6,7 +6,7 @@ provider "aci" {
 } 
 
 resource "aci_tenant" "footenant" {
-  description = "terraform created tenant through Jenkins"
+  description = "terraform created tenant with Jenkins"
   name        = "terraform_tnt_jenkins"
   annotation  = "tag_tenant"
   name_alias  = "alias_tenant"
